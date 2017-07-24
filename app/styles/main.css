@@ -3,6 +3,7 @@
 body {
   background-color: orange;
   height: 100vh;
+  overflow-y: hidden;
 }
 
 .header {
@@ -74,4 +75,18 @@ input:checked + label > p {
 
 .btn-danger, .btn-default {
   display: inline;
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.footer h3 > .fa {
+  color: red;
+}
+
+a, a:link, a:hover, a:visited {
+  color: white;
 }
